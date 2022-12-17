@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         imageView=findViewById(R.id.imageView);
                     Log.d("Hello","Gautam3.3 Successfully");
 //        RequestQueue queue = Volley.newRequestQueue(this);
-        String url = "https://meme-api.herokuapp.com/gimme";
+        String url = "https://meme-api.com/gimme";  
 // Request a string response from the provided URL.
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {
